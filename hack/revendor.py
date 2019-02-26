@@ -118,6 +118,10 @@ REQUIRED_DEPS = [
     {
       "package": "gopkg.in/ini.v1",
       "version": "v1.40.0"
+    },
+    {
+      "package": "sigs.k8s.io/yaml",
+      "version": "v1.1.0"
     }
 ]
 DEP_LIST = [

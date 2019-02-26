@@ -25,7 +25,6 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	meta_util "github.com/appscode/kutil/meta"
 	"github.com/golang/glog"
 	api "github.com/kubedb/apimachinery/apis/kubedb/v1alpha1"
 	cs "github.com/kubedb/apimachinery/client/clientset/versioned/typed/kubedb/v1alpha1"
@@ -47,6 +46,7 @@ import (
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
 	"k8s.io/kubernetes/pkg/printers"
 	printersinternal "k8s.io/kubernetes/pkg/printers/internalversion"
+	meta_util "kmodules.xyz/client-go/meta"
 )
 
 // Each level has 2 spaces for PrefixWriter

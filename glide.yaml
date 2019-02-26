@@ -10,8 +10,8 @@ import:
   version: master
 - package: github.com/appscode/go-version
   version: master
-- package: github.com/appscode/kutil
-  version: release-9.0
+- package: kmodules.xyz/client-go
+  version: release-10.0
 - package: github.com/aws/aws-sdk-go
   version: v1.14.12
 - package: github.com/coreos/prometheus-operator
